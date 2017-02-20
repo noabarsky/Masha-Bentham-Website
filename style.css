@@ -1,0 +1,310 @@
+/* General */
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+footer{
+  width: 100%;
+  font-size: .85em;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  background-color: #353535;
+  margin-top: -6px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#logo img{
+  margin-left: 510px;
+  margin-right: 200px;
+  height: 180px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+.foot footer{
+  width: 100%;
+  font-size: .85em;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  background-color: #262626;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Home */
+
+.menu-bar{
+    text-align: center;
+    font-size: 22px;
+}
+
+.menu-bar a:hover {
+  color: #81808A
+}
+
+.menu-bar a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: black;
+}
+
+
+#pic img{
+  width: 100%;
+  height: auto;
+}
+
+/* Home */
+
+
+/* Portfolio */
+
+body, html {
+  padding: 0px;
+  margin: 0px;
+}
+
+.port header{
+  font-size: 90px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.menu-bar-1{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-bar-1 a:hover {
+  color: #81808A
+}
+
+.menu-bar-1 a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: black;
+}
+
+
+.port img{
+  height: 350px;
+  width: 100%;
+}
+
+.port table, td{
+  padding-top: 0px;
+}
+
+.port img:hover {
+  opacity: 0.5;
+}
+
+/* About */
+
+header{
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.col1, .col2 {
+  width: 18%;
+  height: 100%;
+  float: left;
+  margin-top: 4%;
+}
+
+.col1 {
+  margin-left: 8%;
+}
+
+.col2 {
+  margin-left: 2%;
+}
+
+.col3 {
+  width: 48%;
+  overflow: hidden;
+  float: left;
+  padding-bottom: 99990px;
+  margin-bottom: -99999px;
+  z-index: -1;
+}
+
+.col3 p {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.col3 p:nth-child(1) {
+  margin-top: 21%;
+  margin-bottom: 5%;
+}
+
+.col3 p:nth-child(2) {
+  margin-bottom: 25%;
+}
+
+.col1 img, .col2 img {
+  width: 100%;
+}
+
+.col1 img:nth-child(2), .col2 img:nth-child(2) {
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+.footie {
+  clear: left;
+  display: block;
+  z-index: 99;
+}
+
+/* contact */
+.container1 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#head header{
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+  padding-top: 10px;
+}
+
+.title p{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 0;
+}
+
+.title p:nth-child(2) {
+  float: left;
+  margin-left: 9.75%;
+}
+
+.title p:nth-child(1) {
+  float: right;
+  margin-right: 10%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+
+.column1, .column2, .column3 p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.column2 li{
+  font-family: 'Montserrat', sans-serif;
+}
+.column1 img{
+  height: 50px;
+  width: 50px;
+}
+
+.column1 {
+  width: 5%;
+  height: 100%;
+  float: left;
+  margin-top: 0;
+}
+
+.column2 {
+  width: 18%;
+  height: 100%;
+  float: left;
+  margin-top: 0;
+}
+
+.column1 {
+  margin-left: 7%;
+}
+
+.column2 {
+  margin-left: 0;
+}
+
+.column3 {
+  width: 77%;
+  margin-left: 190px;
+  overflow: hidden;
+  float: left;
+  padding-bottom: 99999px;
+  margin-bottom: -99999px;
+  z-index: -1;
+}
+
+.column3 form {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  margin-left: 58.25%;
+  margin-right: 0;
+  padding-bottom: 50px;
+  margin-top: -70px;
+}
+
+textarea{
+  resize: none;
+}
+
+.column1 ul{
+  list-style-type: none;
+}
+
+.column2 ul{
+  list-style-type: none;
+}
+
+.column2 li:nth-child(1){
+  padding-top: 14px;
+  padding-bottom: 20px;
+}
+
+.column2 li:nth-child(2){
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+
+.column2 li:nth-child(3){
+  padding-top: 14px;
+  padding-bottom: 18px;
+}
+.column2 li:nth-child(4)  {
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
