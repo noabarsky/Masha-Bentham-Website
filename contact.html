@@ -4,9 +4,17 @@
   <title>
     Contact
   </title>
-
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <meta charset="utf-8">
+  <link rel="icon" href="img/icon.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_qfnjMxIXKEmZ9YcLCAOgo");
+   })();
+</script>
 </head>
 
 
@@ -16,67 +24,69 @@
   <a href="index.html"><img src="img/logo.png"></a>
 </div>
 
-<div class="menu-bar-1">
+<div class="menu-bar">
     <a href="about.html">About</a>
     <a href="portfolio.html">Portfolio</a>
-    <a href="blog.html">Blog</a>
+    <!--<a href="https://mashabarskyblog.wordpress.com">Blog</a>-->
     <a href="contact.html">Contact</a>
-      <a href="#">Resume</a>
+    <a href="Masha Barsky.pdf">Resume</a>
 </div>
 
+  <div class="contact-container">
 
-<div id="head">
-<header>Contact Me</header>
-</div>
+    <div class="contact-col-container">
 
-<div class="title">
-<p>Want to get in contact? Fill out the form below!</p>
-<p>Click on the icons below or use the references provided</p>
-</div>
+      <div class="contact-col">
+        <div class="contact-title">Click on the icons below or use the references provided</div>
 
+        <div class="contact-col-1">
+          <ul>
+            <li><a href="mailto:barsky.masha@gmail.com"><img src="img/gmail.jpg"></a></li>
+            <li><img src="img/phone.jpg"></li>
+            <li><a href="https://www.linkedin.com/in/masha-barsky-7890b182/"><img src="img/link.jpg"></a></li>
+          </ul>
+        </div>
 
+        <div class="contact-col-2">
+          <ul>
+            <li>barsky.masha@gmail.com</li>
+            <li>(905) 920-3589</li>
+            <li>/masha-barsky</li>
+          </ul>
+        </div>
 
-<div class="container1">
-<div class="column1">
+      </div>
 
-<ul>
-  <li><a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=>
-  barsky.masha@gmail.com&su=SUBJECT&body=BODY&tf=1"><img src="img/gmail.png"></a></li>
-  <li><a href="tel:(905) 920-3589"><img src="img/phone.png"></a></li>
-  <li><a href="https://www.linkedin.com/in/masha-barsky-7890b182/"><img src="img/link.png"></a></li>
-  <li><a href="https://www.instagram.com/mashkabarsky/"><img src="img/instagram.png"></a></li>
-</ul>
-</div>
-
-<div class="column2">
-  <ul>
-  <li>barsky.masha@gmail.com</li>
-  <li>(905) 920-3589</li>
-  <li>/masha-barsky</li>
-  <li>@mashkabarsky</li>
-</ul>
- </div>
-
-<div class="column3">
-<form action="/action_page.php">
-  Email:<br>
-  <input type="text" name="email">
-  <br>
-  Name:<br>
-  <input type="text" name="email">
-  <br>
-  Message:<br>
-  <textarea rows="4" cols="50" name="comment" form="usrform">
-  </textarea>
-  <input type="submit" value="Submit">
-</form>
-
-</div>
-</div>
+      <div class="contact-col">
+        <div class="contact-title">Want to get in contact? Fill out the form below!</div>
 
 
 
-<footer><b>&copy; 2017 Masha Barsky. Design by Noa.</b></footer>
+        <form>
+           Email:<br>
+          <input id="email-email" type="email" class="text">
+          <br>
+          <div class="padding">Name:<br></div>
+          <input id="email-name" type="text" class="text">
+          <br>
+          <div class="padding">Message:<br></div>
+          <textarea id="email-message" rows="11" cols="55" name="comment" form="usrform">
+          </textarea>
+          <div class="submit"><br><input id="submit" type="submit" value="Submit" onsubmit="sendEmail()"></div>
+        </form>
+
+        <script src="contact-form.js"></script>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+
+<footer>&copy; 2017 Masha Bentham. Design by <a href="mailto:noabarsky123@gmail.com">Noa</a>.</footer>
 
 </body>
 </html>

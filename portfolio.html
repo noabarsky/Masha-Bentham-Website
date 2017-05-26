@@ -5,7 +5,9 @@
   <title>
     Portfolio
   </title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <meta charset="utf-8">
+  <link rel="icon" href="img/icon.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -16,49 +18,262 @@
   <a href="index.html"><img src="img/logo.png"></a>
 </div>
 
-<div class="menu-bar-1">
+<div class="menu-bar">
     <a href="about.html">About</a>
     <a href="portfolio.html">Portfolio</a>
-    <a href="blog.html">Blog</a>
+    <!--<a href="https://mashabarskyblog.wordpress.com/">Blog</a>-->
     <a href="contact.html">Contact</a>
-    <a href="#">Resume</a>
+   <a href="Masha Barsky.pdf">Resume</a>
 </div>
 
 
 <div class="port">
-<header>Portfolio</header>
-
-
-<table>
-  <tr>
-
-<td id="myImg"><img src="portfolio/Jim.png"></td>
-<td> <img src="portfolio/liftoff.png"> </td>
-</tr>
-<tr>
-  <td><img src="portfolio/nancy.png"></td>
-  <td> <img src="portfolio/muham.png"> </td>
-</tr>
-<tr>
-
-  <td><img src="portfolio/house.png"></td>
-  <td><img src="portfolio/fidel.png"></td>
-</tr>
-<tr>
-<td><img src="portfolio/hildon.png"></td>
-<td> <img src="portfolio/pita.jpg"></td>
-
-</tr>
-<tr>
-  <td><img src="portfolio/fiscal.png"></td>
-    <td><img src="portfolio/b2w.jpg"></td>
-</tr>
-</table>
+  <p>BNN</p>
+  <img id='myImg4' src="portfolio/house.png">
+  <img id='myImg1' src="portfolio/liftoff.png">
+  <img id='myImg6' src="portfolio/hildon.png">
+  <img id='myImg' src="portfolio/Jim.png">
+  <img id='myImg8' src="portfolio/fiscal.png">
+  <img id='myImg12'src="portfolio/BNN.png">
+  <p>CTV</p>
+  <img id='myImg3' src="portfolio/muham.png">
+  <img id='myImg5' src="portfolio/fidel.png">
+  <img id='myImg2' src="portfolio/nancy.png">
+  <img id='myImg10' src="portfolio/head.jpg">
+  <p>Freelance</p>
+  <img id='myImg7' src="portfolio/pita.jpg">
+  <img id='myImg9' src="portfolio/b2w.jpg">
+  <img id='myImg11' src="portfolio/diamond.jpg">
 </div>
 
 
-<footer><b>&copy; 2017 Masha Barsky. Design by Noa.</b></footer>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
 
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+var img = document.getElementById('myImg1');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var img = document.getElementById('myImg4');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var img = document.getElementById('myImg5');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var img = document.getElementById('myImg6');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var img = document.getElementById('myImg7');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var img = document.getElementById('myImg8');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var img = document.getElementById('myImg9');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var img = document.getElementById('myImg10');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var img = document.getElementById('myImg11');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var img = document.getElementById('myImg12');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+</script>
+<div class="foot"><footer>&copy; 2017 Masha Bentham. Design by <a href="mailto:noabarsky123@gmail.com">Noa</a>.</footer></div>
 
 </body>
 </html>
