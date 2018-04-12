@@ -320,6 +320,15 @@ padding-right: 2%; margin-left: 30%; margin-right: 30%;}
     float: left;
 }
 
+.contact-col-2 li, a{
+  text-decoration: none;
+  color: black;
+}
+
+.contact-col-2 a:hover{
+  color: #818181;
+
+}
 .contact-col-1 ul {
     right: 1%;
     margin-left: 28%;
